@@ -12,4 +12,4 @@ Steps for usage:
 1.The first thing we need to do is to add the kryo dependency to our pom.xml.The latest version of this artifact can be found on Maven Central[https://search.maven.org/search?q=g:com.esotericsoftware%20AND%20a:kryo].
 ![image](https://user-images.githubusercontent.com/72067353/202830378-bb3dc538-e2c5-4e17-b826-928d74e1da45.png)
 
-2.
+2.因为咱们算是自己定制化Kryo,所以最关键的就是register，然后writeObject和readObject两个方法
